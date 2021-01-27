@@ -1,7 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
-import LayoutDemo from '../views/LayoutDemo.vue'
 Vue.use(VueRouter)
 
 const routes = [{
@@ -13,10 +12,16 @@ const routes = [{
     path: '/about',
     name: 'About',
     component: () => import('../views/About.vue')
-  }, {
+  },
+  {
     path: '/layoutDemo',
     name: 'LayoutDemo',
     component: () => import('../views/LayoutDemo.vue')
+  },
+  {
+    path: '/containerDemo',
+    name: 'ContainerDemo',
+    component: () => import('../views/ContainerDemo.vue')
   }
 ]
 
