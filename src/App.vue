@@ -3,8 +3,11 @@
     <div id="nav">
       <router-link to="/">首页</router-link> |
       <router-link to="/about">关于</router-link> |
-      <router-link to="/layoutDemo">布局演示</router-link>|
-      <router-link to="/ContainerDemo">布局容器演示</router-link>|
+      <router-link to="/layoutDemo">布局</router-link>|
+      <router-link to="/containerDemo">布局容器</router-link>|
+      <router-link to="/iconDemo">图标</router-link>|
+      <router-link to="/ButtonDemo">按钮</router-link>|
+      <router-link to="/RadioDemo">单选框</router-link>|
     </div>
     <el-divider></el-divider>
     <router-view />
