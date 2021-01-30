@@ -37,6 +37,11 @@ const routes = [{
     path: '/radioDemo',
     name: 'RadioDemo',
     component: () => import('../views/RadioDemo.vue')
+  },
+  {
+    path: '/checkboxDemo',
+    name: 'CheckboxDemo',
+    component: () => import('../views/CheckboxDemo.vue')
   }
 ]
 

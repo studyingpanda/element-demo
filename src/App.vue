@@ -6,8 +6,9 @@
       <router-link to="/layoutDemo">布局</router-link>|
       <router-link to="/containerDemo">布局容器</router-link>|
       <router-link to="/iconDemo">图标</router-link>|
-      <router-link to="/ButtonDemo">按钮</router-link>|
-      <router-link to="/RadioDemo">单选框</router-link>|
+      <router-link to="/buttonDemo">按钮</router-link>|
+      <router-link to="/radioDemo">单选框</router-link>|
+      <router-link to="/checkboxDemo">复选框</router-link>|
     </div>
     <el-divider></el-divider>
     <router-view />
