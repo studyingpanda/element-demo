@@ -9,6 +9,8 @@
       <router-link to="/buttonDemo">按钮</router-link>|
       <router-link to="/radioDemo">单选框</router-link>|
       <router-link to="/checkboxDemo">多选框</router-link>|
+      <router-link to="/inputDemo">输入框</router-link>|
+      <router-link to="/inputNumberDemo">计数器</router-link>|
     </div>
     <el-divider></el-divider>
     <router-view />
